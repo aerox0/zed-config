@@ -38,6 +38,14 @@
 	},
 
 	{
+		"context": "Terminal",
+		"bindings": {
+			"ctrl-w": "pane::CloseActiveItem",
+			"ctrl-`": "workspace::ToggleBottomDock"
+		}
+	},
+
+	{
 		"context": "Editor && vim_mode == insert",
 		"bindings": {
 			"j k": "vim::SwitchToNormalMode"
