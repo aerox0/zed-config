@@ -16,17 +16,18 @@
 	{
 		"context": "Workspace",
 		"bindings": {
-			// "shift shift": "file_finder::Toggle"
+			"ctrl-b": "workspace::ToggleRightDock",
+			"ctrl-shift-b": "workspace::ToggleLeftDock",
+			"ctrl-`": "workspace::ToggleBottomDock",
+			"alt-j": "workspace::ActivatePaneRight",
+			"alt-k": "workspace::ActivatePaneLeft"
 		}
 	},
 
 	{
 		"context": "Terminal",
 		"bindings": {
-			"ctrl-w": "pane::CloseActiveItem",
-			"ctrl-`": "workspace::ToggleBottomDock",
-			"alt-j": "workspace::ActivatePaneRight",
-			"alt-k": "workspace::ActivatePaneLeft"
+			"ctrl-w": "pane::CloseActiveItem"
 		}
 	},
 
@@ -39,13 +40,17 @@
 			"alt-shift-j": "editor::DuplicateLineDown",
 			"ctrl-d": ["editor::SelectNext", { "replace_newest": false }],
 			"ctrl-w": "pane::CloseActiveItem",
+			"ctrl-p": "file_finder::Toggle",
+			"ctrl-x": "editor::Cut",
+			"ctrl-[": "editor::Outdent",
+			"ctrl-]": "editor::Indent",
+			"alt-k": "editor::MoveLineUp",
+			"alt-j": "editor::MoveLineDown",
 			"ctrl-shift-up": null,
 			"ctrl-shift-down": null,
 			"ctrl-j": null,
-			"ctrl-p": "file_finder::Toggle",
-			"ctrl-b": "workspace::ToggleRightDock",
-			"ctrl-shift-b": "workspace::ToggleLeftDock",
-			"ctrl-x": "editor::Cut"
+			"alt-up": null,
+			"alt-down": null
 		}
 	},
 
