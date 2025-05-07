@@ -23,6 +23,7 @@
 	{
 		"context": "Terminal",
 		"bindings": {
+			"ctrl-w": "pane::CloseActiveItem",
 			"ctrl-`": "workspace::ToggleBottomDock",
 			"alt-j": "workspace::ActivatePaneRight",
 			"alt-k": "workspace::ActivatePaneLeft"
