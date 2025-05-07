@@ -21,6 +21,15 @@
 	},
 
 	{
+		"context": "Terminal",
+		"bindings": {
+			"ctrl-`": "workspace::ToggleBottomDock",
+			"alt-j": "workspace::ActivatePaneRight",
+			"alt-k": "workspace::ActivatePaneLeft"
+		}
+	},
+
+	{
 		"context": "Editor",
 		"bindings": {
 			"ctrl-v": "editor::Paste",
@@ -28,20 +37,14 @@
 			"alt-shift-k": "editor::DuplicateLineUp",
 			"alt-shift-j": "editor::DuplicateLineDown",
 			"ctrl-d": ["editor::SelectNext", { "replace_newest": false }],
-			"ctrl-w": "tab_switcher::CloseSelectedItem",
+			"ctrl-w": "pane::CloseActiveItem",
 			"ctrl-shift-up": null,
 			"ctrl-shift-down": null,
+			"ctrl-j": null,
 			"ctrl-p": "file_finder::Toggle",
 			"ctrl-b": "workspace::ToggleRightDock",
-			"ctrl-shift-b": "workspace::ToggleLeftDock"
-		}
-	},
-
-	{
-		"context": "Terminal",
-		"bindings": {
-			"ctrl-w": "pane::CloseActiveItem",
-			"ctrl-`": "workspace::ToggleBottomDock"
+			"ctrl-shift-b": "workspace::ToggleLeftDock",
+			"ctrl-x": "editor::Cut"
 		}
 	},
 
